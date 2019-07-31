@@ -4,7 +4,7 @@
  * Licensed GPLv3 for open source use
  * or Isotope Commercial License for commercial use
  *
- * http://isotope.metafizzy.co
+ * https://isotope.metafizzy.co
  * Copyright 2017 Metafizzy
  */
 
@@ -126,7 +126,7 @@ function(t, e) {
 
     function n(t) {
         var e = getComputedStyle(t);
-        return e || a("Style returned " + e + ". Are you running this code in a hidden iframe on Firefox? See http://bit.ly/getsizebug1"), e
+        return e || a("Style returned " + e + ". Are you running this code in a hidden iframe on Firefox? See https://bit.ly/getsizebug1"), e
     }
 
     function o() {
