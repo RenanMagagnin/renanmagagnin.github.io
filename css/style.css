@@ -526,6 +526,7 @@ a {
     .blog-entry .meta a {
       display: inline-block;
       margin-right: 10px;
+      margin-bottom: 5px;
       color: #96a3b0; }
       .blog-entry .meta a:hover {
         color: #57d131; }
@@ -553,19 +554,24 @@ a {
     margin-bottom: 5px;
     display: block; }
 
+
+
+
 .site-footer {
-  padding: 3em 0; }
+  padding: 1em 0 1em; }
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer .social-item {
+    color:#fff;background-color:#6c757d;
+    /* color:#fff;background-color:#5a6268;border-color:#545b62 */
     display: inline-block;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #b3bdc6;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #6c757d;  /* #b3bdc6 */
     position: relative;
     border-radius: 50%;
-    font-size: 22px;
-    margin: 0 10px; }
+    font-size: 18px;
+    margin: 0 3px; }
     .site-footer .social-item > span {
       position: absolute;
       top: 50%;
