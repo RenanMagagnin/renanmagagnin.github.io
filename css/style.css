@@ -564,12 +564,12 @@ a {
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer .social-item {
-    color:#fff;background-color:#6c757d;
-    /* color:#fff;background-color:#5a6268;border-color:#545b62 */
+    color:#fff;background-color:#4C4B72;
+    /* color:#fff;background-color:#070242;border-color:#545b62 */
     display: inline-block;
     width: 45px;
     height: 45px;
-    border: 1px solid #6c757d;  /* #b3bdc6 */
+    border: 1px solid #4C4B72;  /* #b3bdc6 */
     position: relative;
     border-radius: 50%;
     font-size: 18px;
