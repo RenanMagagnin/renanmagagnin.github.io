@@ -821,7 +821,10 @@
       </script> -->
 
       <script type="text/javascript">
-      // alert("Hello world");
+      $(".grid").isotope({
+        filter: "*"
+      })
+
       if(document.getElementById("section-portfolio")){
             var $grid = $(".grid").isotope({
               itemSelector: ".all",
@@ -831,6 +834,7 @@
               }
             })
       };
+      // alert("Hello world");
       </script>
 
 
