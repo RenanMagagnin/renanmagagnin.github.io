@@ -821,20 +821,29 @@
       </script> -->
 
       <script type="text/javascript">
-      $(".grid").isotope({
-        filter: "*"
-      })
+      // $(".grid").isotope({
+      //   filter: ".Games"
+      // })
 
-      if(document.getElementById("section-portfolio")){
-            var $grid = $(".grid").isotope({
-              itemSelector: ".all",
-              percentPosition: true,
-              masonry: {
-                columnWidth: ".all"
-              }
-            })
-      };
-      // alert("Hello world");
+      setTimeout(
+        function(){
+          $(".grid").isotope({
+            filter: "*"
+          })
+          // alert("Hello world");
+        }, 2000
+      );
+
+      // if(document.getElementById("section-portfolio")){
+      //       var $grid = $(".grid").isotope({
+      //         itemSelector: ".all",
+      //         percentPosition: true,
+      //         masonry: {
+      //           columnWidth: ".all"
+      //         }
+      //       })
+      // };
+
       </script>
 
 
